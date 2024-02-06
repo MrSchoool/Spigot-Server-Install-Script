@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">⬇️ download the script<br>🏁 Start the MinecraftServerInstall.bat<br>❕ follow the instructions step by step<br>✔️ add the version you downloaded the folder<br>🚀 start the start.bat<br>🚶‍♂️ go to eula.txt and switch false to true<br>🎉 start your start.bat again<br>👌 and youre done</p>
+<p align="left">⬇️ download the script<br>🏁 Start the MinecraftServerInstall.bat<br>❕ follow the instructions step by step<br>✔️ add the version you downloaded to the folder<br>🚀 start the start.bat<br>🚶‍♂️ go to eula.txt and switch false to true<br>🎉 start your start.bat again<br>👌 and youre done</p>
 
 ###
 
@@ -22,7 +22,7 @@
 
 ###
 
-<h2 align="left">🔥​Spigot Version</h2>
+<h2 align="left">🔥​Spigot Server Version</h2>
 
 ###
 
