@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">discord</p>
+<p align="left">support</p>
 
 ###
 
