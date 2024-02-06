@@ -10,7 +10,7 @@
 
 ###
 
-<h2 align="left">📌Wichtig</h2>
+<h2 align="left">📌important</h2>
 
 ###
 
@@ -22,7 +22,7 @@
 
 ###
 
-<h2 align="left">❓​informationen</h2>
+<h2 align="left">❓​information</h2>
 
 ###
 
