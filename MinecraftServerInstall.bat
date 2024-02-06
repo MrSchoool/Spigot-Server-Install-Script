@@ -20,57 +20,41 @@ echo 10. 1.19.4
 echo 11. 1.20.1
 echo 12. 1.20.2
 echo 13. 1.20.4
-set /p version=Please choose a version (1 - 13): 
+set /p version=Please choose a version (1, 13):
 
 if "%version%"=="1" (
-start https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
 ) else if "%version%"=="2" (
-start https://cdn.getbukkit.org/spigot/spigot-1.9-R0.1-SNAPSHOT-latest.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.9-R0.1-SNAPSHOT-latest.jar
 ) else if "%version%"=="3" (
-start https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar
 ) else if "%version%"=="4" (
-start https://cdn.getbukkit.org/spigot/spigot-1.16.3.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.16.3.jar
 ) else if "%version%"=="5" (
-start https://cdn.getbukkit.org/spigot/spigot-1.16.4.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.16.4.jar
 ) else if "%version%"=="6" (
-start https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar
-
+    start https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar
 ) else if "%version%"=="7" (
-start https://download.getbukkit.org/spigot/spigot-1.17.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.17.jar
 ) else if "%version%"=="8" (
-start https://download.getbukkit.org/spigot/spigot-1.18.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.18.jar
 ) else if "%version%"=="9" (
-start https://download.getbukkit.org/spigot/spigot-1.19.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.19.jar
 ) else if "%version%"=="10" (
-start https://download.getbukkit.org/spigot/spigot-1.19.4.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.19.4.jar
 ) else if "%version%"=="11" (
-start https://download.getbukkit.org/spigot/spigot-1.20.1.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.20.1.jar
 ) else if "%version%"=="12" (
-start https://download.getbukkit.org/spigot/spigot-1.20.2.jar
-
+    start https://download.getbukkit.org/spigot/spigot-1.20.2.jar
 ) else if "%version%"=="13" (
-start https://download.getbukkit.org/spigot/spigot-1.20.4.jar
-
-)
-
-color 7
- else (
-    echo [Invalid selection. Please choose (1 - 13.)]
+    start https://download.getbukkit.org/spigot/spigot-1.20.4.jar
+) else (
+    echo [Invalid selection. Please choose 1-13.]
     pause
     exit /b
 )
 
-color 2
+color 7
 set /p "server_memory=Please enter the server memory size in GB: "
 color 9
 set /p "downloaded_file=Please enter the name of the downloaded file (with file extension): "
