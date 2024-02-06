@@ -22,6 +22,14 @@
 
 ###
 
+<h2 align="left">🔥​Spigot Version</h2>
+
+###
+
+<p align="left">spigot 1.8.8 / 1.16.5 / 1.20.4</p>
+
+###
+
 <h2 align="left">❓​information</h2>
 
 ###
